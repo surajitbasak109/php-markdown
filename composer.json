@@ -1,0 +1,21 @@
+{
+  "name": "techcet/php-markdown",
+  "description": "Convert any blog url to markdown",
+  "type": "project",
+  "require": {
+    "league/html-to-markdown": "^4.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Surajit Basak",
+      "email": "surajitbasak109@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tech\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
